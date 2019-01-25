@@ -4,7 +4,7 @@ spring:
   application:
     name: eureka-server
   redis:
-    host: myredis
+    host: http://myredis
     port: 6379
 eureka:
   client:
