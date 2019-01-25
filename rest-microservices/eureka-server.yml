@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: eureka-server
+  redis:
+    host: myredis
+    port: 6379
 eureka:
   client:
     register-with-eureka: false
